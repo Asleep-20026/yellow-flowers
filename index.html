@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flores Amarillas</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="startAnimationBtn">Dale click</button>
+    <audio id="miAudio" src="./audio/Under the influence.mp3" preload="auto"></audio>
+    <div id="flowerContainer" class="hidden">
+        <h1>Cuando lo sabes lo sabes</h1>
+        <div class="container">
+            <div class="stars">
+                <span class="star" style="--i:11;"></span>
+                <span class="star" style="--i:12;"></span>
+                <span class="star" style="--i:24;"></span>
+                <span class="star" style="--i:10;"></span>
+                <span class="star" style="--i:11;"></span>
+                <span class="star" style="--i:14;"></span>
+                <span class="star" style="--i:23;"></span>
+                <span class="star" style="--i:18;"></span>
+                <span class="star" style="--i:16;"></span>
+                <span class="star" style="--i:19;"></span>
+                <span class="star" style="--i:20;"></span>
+                <span class="star" style="--i:22;"></span>
+                <span class="star" style="--i:25;"></span>
+                <span class="star" style="--i:18;"></span>
+                <span class="star" style="--i:21;"></span>
+                <span class="star" style="--i:15;"></span>
+                <span class="star" style="--i:13;"></span>
+                <span class="star" style="--i:26;"></span>
+                <span class="star" style="--i:17;"></span>
+                <span class="star" style="--i:13;"></span>
+                <span class="star" style="--i:28;"></span>
+                <span class="star" style="--i:10;"></span>
+                <span class="star" style="--i:13;"></span>
+                <span class="star" style="--i:22;"></span>
+                <span class="star" style="--i:10;"></span>
+            </div>
+        </div>
+        <div class="flower">
+            <div class="stem">
+                <div class="leaf"></div>
+            </div>
+            <!-- Pétalos ocultos al principio -->
+            <div class="petal hidden" style="transform: rotate(0deg);"></div>
+            <div class="petal hidden" style="transform: rotate(45deg);"></div>
+            <div class="petal hidden" style="transform: rotate(90deg);"></div>
+            <div class="petal hidden" style="transform: rotate(135deg);"></div>
+            <div class="petal hidden" style="transform: rotate(180deg);"></div>
+            <div class="petal hidden" style="transform: rotate(225deg);"></div>
+            <div class="petal hidden" style="transform: rotate(270deg);"></div>
+            <div class="petal hidden" style="transform: rotate(315deg);"></div>
+            <!-- Centro de la flor -->
+            <div class="center"></div>
+        </div>
+    </div>
+    
+<script src="script.js"></script>
+</body> 
+</html>
