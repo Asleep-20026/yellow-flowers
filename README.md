@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # yellow-flowers
-=======
+
 
 ```
 floresAmarllas
@@ -11,4 +11,3 @@ floresAmarllas
 └─ styles.css
 
 ```
->>>>>>> origin/master
